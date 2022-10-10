@@ -71,7 +71,6 @@ void Jugar() {
     std::cin >> players[1];
 
     rlutil::cls();
-
     matrizZero(tablero);
     int fin = cargarMatriz(tablero, players);
 
